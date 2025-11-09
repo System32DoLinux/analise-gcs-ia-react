@@ -9,7 +9,7 @@ describe('App', () => {
         const button = screen.getByRole('button', { name: /Incrementar/i })
         fireEvent.click(button)
         // verifica que o texto '1' está presente no documento
-        expect(screen.getByText('1')).toBeInTheDocument()
+        expect(screen.getByText('99')).toBeInTheDocument()
     })
 })
 
